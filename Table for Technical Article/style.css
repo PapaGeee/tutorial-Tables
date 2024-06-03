@@ -1,0 +1,20 @@
+*{margin: auto; padding: 20px; font-family: Helvetica;}
+
+body{display: grid; place-items:center;}
+
+table {padding: 5px; border-collapse: collapse;}
+
+th {background-color:rgb(22, 22, 114); color: gold; text-align: center;}
+
+table, td, tr {box-shadow: -6px 12px 12px -6px rgb(95,8, 55);
+padding: 20px; text-align: center;}
+
+h2, td, h4{color: black;}
+
+tr:nth-child(even){background-color: #51517f;}
+
+tr:nth-child(even):hover{background-color: #412f84 ;
+    transform: scale(1.5); transition: transform 2000ms ease}
+
+tr:nth-child(odd):hover{background-color: #1c536c; 
+    transform: scale(1.5); transition: transform 2000ms ease;}
